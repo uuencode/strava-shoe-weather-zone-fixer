@@ -18,7 +18,7 @@ Any web host with PHP, `php_sqlite3` extension and PHP Curl support enabled.
 
 ## How it works
 
-When users visit the URL where the app is deployed, they are redirected to the Strava website to authorize the app to edit their activities and read their shoe IDs. After a successful authorization, users get a personalized URL. Visit the URL to quickly add shoes, edit activity name and description and automatically add weather info, HR Zones and MAF zone to the description.
+When users visit the URL where the app is deployed, they are redirected to the Strava website to authorize the app to edit their activities and read their shoe IDs. After a successful authorization, users get a personalized URL. After uploading an activity, users visit the URL to quickly add shoes, edit activity name and description and automatically add weather info, HR Zones and MAF zone to the description.
 
 ## License
 MIT
