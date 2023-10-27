@@ -10,7 +10,7 @@ Any web host with PHP, `php_sqlite3` extension and PHP Curl support enabled.
 
 1. Login to Strava
 2. Register a Strava app at https://www.strava.com/settings/api
-3. Upload the files to your host and open config.php with a text editor:
+3. Upload the files to the host and open config.php with a text editor:
   - Paste Strava ClientID and Strava ClientSecret
   - Replace `$secret_salt_hashing` with a random string
   - Create a new folder with a random name e.g. `ABC123` and set `$store_gpx_files_dir = 'ABC123';` instead of 'DATA'
@@ -18,7 +18,7 @@ Any web host with PHP, `php_sqlite3` extension and PHP Curl support enabled.
 
 ## How it works
 
-When users visit the URL where your app is deployed, they are redirected to the Strava website to authorize the app to edit their activities and read their shoe IDs. After a successful authorization, users get a personalized URL. Visit the URL to quickly add shoes, edit activity name and description and automatically add weather info, HR Zones and MAF zone to the description.
+When users visit the URL where the app is deployed, they are redirected to the Strava website to authorize the app to edit their activities and read their shoe IDs. After a successful authorization, users get a personalized URL. Visit the URL to quickly add shoes, edit activity name and description and automatically add weather info, HR Zones and MAF zone to the description.
 
 ## License
 MIT
