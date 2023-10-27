@@ -2,6 +2,8 @@
 
 A Strava app to manipulate the latest activities: select shoes, change the name and recreate the description with the following info: weather + MAF zone + HR zones. Strava is a website for tracking physical exercise with social network features used for cycling and running using Global Positioning System data. Strava URL: https://www.strava.com
 
+![Alt text](/screenshots.png "void")
+
 ## Requirements
 
 Any web host with PHP, `php_sqlite3` extension and PHP Curl support enabled.
