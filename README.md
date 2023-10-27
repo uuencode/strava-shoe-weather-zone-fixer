@@ -1,8 +1,6 @@
 # strava-shoe-weather-zone-fixer
-A Strava app to manipulate the latest activities: select shoes, change the name and recreate the description with the following info: weather + MAF zone + HR zones. 
 
-Strava is a website for tracking physical exercise with social network features used for cycling and running using Global Positioning System data.  
-Strava URL: https://www.strava.com
+A Strava app to manipulate the latest activities: select shoes, change the name and recreate the description with the following info: weather + MAF zone + HR zones. Strava is a website for tracking physical exercise with social network features used for cycling and running using Global Positioning System data. Strava URL: https://www.strava.com
 
 ## Requirements
 
