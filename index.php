@@ -174,7 +174,7 @@ $html_data[]='<tr><td colspan="3" style="border-bottom:1px solid #D81B60"></td><
 $spacer_row=$html_data[0];
 
 foreach ($list_pos as $val) {
-	$html_data[]='<tr><td style="width:80%"><input style="border-width:0;padding:10px" id="inp'.$val[0].'" type="text" value="'.$val[1].'"></td><td>'.substr($val[2],0,10).'</td><td><input type="button" style="color:#fff;background-color:#1976D2;border-width:0;padding:5px 15px" onclick="go(\''.$val[0].'\')" value="&nbsp; GO &nbsp;"></td></tr>'.$spacer_row;
+	$html_data[]='<tr><td style="width:80%"><input style="border-width:0;padding:10px" id="inp'.$val[0].'" type="text" value="'.$val[1].'"></td><td>'.substr($val[2],0,10).'</td><td><input type="button" style="opacity:.5;color:#fff;background-color:#1976D2;border-width:0;padding:5px 15px" onclick="go(\''.$val[0].'\')" value="&nbsp; GO &nbsp;"></td></tr>'.$spacer_row;
 	$spacer_row='';
 }
 
