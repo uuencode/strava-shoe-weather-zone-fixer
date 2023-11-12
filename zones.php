@@ -61,7 +61,7 @@ input{padding:10px;text-align:center;color:#000;background-color:#eee;border-wid
 <h1 style="text-align:right">MAF &amp; HR ZONES</h1>
 <hr style="border-width:0;color:transparent;background-color:transparent;border-bottom:1px solid #a00">
 <form action="zones.php?auth=<?php print $_GET['auth'];?>" method="post">
-<div style="text-align:right;padding:10px 5px"><b>Zone 1</b> = (<?php print '000-'.$zones[0][1];?>)<i style="display:inline-block;width:10px"></i></div>
+<div style="text-align:right;padding:10px 5px"><b>Zone 1</b> = (<?php print 'MIN-'.$zones[0][1];?>)<i style="display:inline-block;width:10px"></i></div>
 <div style="text-align:right;padding:10px 5px"><b>Zone 2</b> (<?php print $zones[1][0].'-'.$zones[1][1];?>) begins at <input type="text" name="zone2b" value="<?php print $zones[1][0];?>"></div>
 <div style="text-align:right;padding:10px 5px"><b>Zone 3</b> (<?php print $zones[2][0].'-'.$zones[2][1];?>) begins at <input type="text" name="zone3b" value="<?php print $zones[2][0];?>"></div>
 <div style="text-align:right;padding:10px 5px"><b>Zone 4</b> (<?php print $zones[3][0].'-'.$zones[3][1];?>) begins at <input type="text" name="zone4b" value="<?php print $zones[3][0];?>"></div>
@@ -70,7 +70,7 @@ input{padding:10px;text-align:center;color:#000;background-color:#eee;border-wid
 <input type="submit" value="ADJUST" style="width:100%;border-width:0;color:#fff;background-color:#444;margin:10px 0;padding:15px 0">
 </form>
 <pre style="font-size:120%;text-align:center;background-color:#eee;padding:10px 0">
-Zone 1 <?php print '000 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦 '.$zones[0][1];?>
+Zone 1 <?php print 'MIN 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦 '.$zones[0][1];?>
 
 Zone 2 <?php print $zones[1][0].' 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 '.$zones[1][1];?>
 
